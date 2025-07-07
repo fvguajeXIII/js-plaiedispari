@@ -15,3 +15,12 @@ if (isPalindroma(parola)) {
 } else {
   console.log(`La parola non è palindroma!`);
 }
+
+
+//Esercizio 2 - Pari o Dispari
+
+//L'utente sceglie pari o dispari
+const sceltaUtente = prompt(`Scegli pari o dispari`)
+
+//L'utente inserisce un numero da 1 a 5
+const numeroUtente = parseInt(prompt(`Inserisci un numero da 1 a 5`), 10);
