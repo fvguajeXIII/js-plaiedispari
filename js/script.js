@@ -34,3 +34,10 @@ const numeroComputer = numeroRandom();
 
 //Procediamo con la somma dei due numeri
 const somma = numeroUtente + numeroComputer;
+
+//Attraverso una funzione stabiliamo se la somma è pari o dispari
+function pariODispari(num) {
+  return num % 2 === 0 ? `Pari` : `Dispari`;
+}
+
+const risultato = pariODispari(somma);
