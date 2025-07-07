@@ -41,3 +41,15 @@ function pariODispari(num) {
 }
 
 const risultato = pariODispari(somma);
+
+//Dichiarazione finale di chi ha vinto
+console.log(`Hai scelto: ${sceltaUtente}`);
+console.log(`Il tuo numero: ${numeroUtente}`);
+console.log(`Numero del computer: ${numeroComputer}`);
+console.log(`Somma: ${somma} (${risultato})`);
+
+if (sceltaUtente === risultato) {
+  console.log("Complimenti, hai vinto!");
+} else {
+  console.log("Ha vinto il computer!");
+}
