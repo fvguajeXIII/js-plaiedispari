@@ -31,3 +31,6 @@ function numeroRandom() {
 }
 
 const numeroComputer = numeroRandom();
+
+//Procediamo con la somma dei due numeri
+const somma = numeroUtente + numeroComputer;
