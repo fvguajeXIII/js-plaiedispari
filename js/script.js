@@ -8,3 +8,10 @@ function isPalindroma(stringa) {
   //ritorno del valore con i metodi reverse per l'inversione, split per trasformare la stringa in array, join per ricomporre la parola
   return stringa === stringa.split(``).reverse().join(``);
 }
+
+//Mostro il risultato a video
+if (isPalindroma(parola)) {
+  console.log(`La parola è palindroma!`);
+} else {
+  console.log(`La parola non è palindroma!`);
+}
