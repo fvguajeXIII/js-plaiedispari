@@ -24,3 +24,10 @@ const sceltaUtente = prompt(`Scegli pari o dispari`)
 
 //L'utente inserisce un numero da 1 a 5
 const numeroUtente = parseInt(prompt(`Inserisci un numero da 1 a 5`), 10);
+
+//Generiamo un numero random (da 1 a 5) per il computer
+function numeroRandom() {
+  return Math.floor(Math.random() * 5) + 1;
+}
+
+const numeroComputer = numeroRandom();
